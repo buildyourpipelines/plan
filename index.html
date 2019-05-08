@@ -52,7 +52,7 @@ starCountRef.on('value', function(snapshot) {
             var video = document.createElement('video');
 setTimeout(function(){
    video.controls = true;
-    video.src = "https://buildyourpipelines.github.io/plan/images/all/" + window.slides[snapshot.val()]['source'];
+    video.src = "https://buildyourpipelines.github.io/plan/videos/all/" + window.slides[snapshot.val()]['source'];
 video.autoplay = true;
   document.getElementById("video_holder").appendChild(video);  
     
@@ -102,7 +102,7 @@ video.autoplay = true;
 
 
     <div class="img-container" id="img-container">
-    <img id="slider" class="center -thumb" height="100%"  align="middle" src="/buildyourpipeline/plan/images/all/start.png"/>
+    <img id="slider" class="center -thumb" height="100%"  align="middle" src="/plan/images/all/start.png"/>
     <div id="video_holder"></div>
 	</div>
 
