@@ -303,7 +303,7 @@ window.slides={};
 
 function getSlides() {
 
-    xhr.open('GET', '../slides.json');
+    xhr.open('GET', '/plan/slides.json');
 
     xhr.send();
 
