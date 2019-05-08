@@ -15,10 +15,10 @@
        
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
 
-          <link rel="stylesheet" href="../styles/beauter.css">
-                <link rel="stylesheet" href="../styles/base.css">
-        <script type="text/javascript" src="../scripts/beauter.js"></script>
-        <script type="text/javascript" src="../scripts/app.js"></script>
+          <link rel="stylesheet" href="styles/beauter.css">
+                <link rel="stylesheet" href="styles/base.css">
+        <script type="text/javascript" src="scripts/beauter.js"></script>
+        <script type="text/javascript" src="scripts/app.js"></script>
         
         <script>
   // Initialize Firebase
@@ -40,22 +40,19 @@ starCountRef.on('value', function(snapshot) {
 	document.getElementById("slider").style.display="inline-block";
 	document.getElementById("video_holder").style.display="none";
             var img = document.getElementById("slider");
-            img.src = "https://shareejvk.github.io/buildyourpipeline/plan/images/all/" + window.slides[snapshot.val()]['source'];	
+            img.src = "https://buildyourpipelines.github.io/plan/images/all/" + window.slides[snapshot.val()]['source'];	
 	}
 	
 		if(window.slides[snapshot.val()]['type']=='video'){
 	        
 	document.getElementById("slider").style.display="none";
 	document.getElementById("video_holder").style.display="inline-block";
-
-            //var vd = document.getElementById("video_source");
-            //vd.src = "https://shareejvk.github.io/buildyourpipeline/plan/videos/all/" + window.slides[snapshot.val()]['source'];	
-            
+          
             
             var video = document.createElement('video');
 setTimeout(function(){
    video.controls = true;
-    video.src = "https://shareejvk.github.io/buildyourpipeline/plan/videos/all/" + window.slides[snapshot.val()]['source'];
+    video.src = "https://buildyourpipelines.github.io/plan/images/all/" + window.slides[snapshot.val()]['source'];
 video.autoplay = true;
   document.getElementById("video_holder").appendChild(video);  
     
