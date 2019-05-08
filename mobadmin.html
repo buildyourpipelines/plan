@@ -39,7 +39,7 @@ starCountRef.on('value', function(snapshot) {
 	document.getElementById("slider").style.display="inline-block";
 	document.getElementById("video_holder").style.display="none";
             var img = document.getElementById("slider");
-            img.src = "https://shareejvk.github.io/buildyourpipeline/plan/images/all/" + window.slides[snapshot.val()]['source'];	
+            img.src = "https://buildyourpipelines.github.io/plan/images/all/" + window.slides[snapshot.val()]['source'];	
 	}
 	
 		if(window.slides[snapshot.val()]['type']=='video'){
@@ -54,7 +54,7 @@ starCountRef.on('value', function(snapshot) {
             var video = document.createElement('video');
 setTimeout(function(){
    video.controls = true;
-    video.src = "https://shareejvk.github.io/buildyourpipeline/plan/videos/all/" + window.slides[snapshot.val()]['source'];
+    video.src = "https://buildyourpipelines.github.io/plan/videos/all/" + window.slides[snapshot.val()]['source'];
 video.autoplay = true;
   document.getElementById("video_holder").appendChild(video);  
     
@@ -143,7 +143,7 @@ window.updateFire()
 
 
     <div class="img-container-admin" id="img-container-admin">
-    <img id="slider" class="center -thumb" height="100%"  align="middle" src="/buildyourpipeline/plan/images/all/start.png"/>
+    <img id="slider" class="center -thumb" height="100%"  align="middle" src="/plan/images/all/start.png"/>
     <div id="video_holder"></div>
 	</div>
 
