@@ -1,1 +1,155 @@
 
+
+
+<html>
+    
+    <head>
+       
+	    <style>
+	    
+		    .row.nav{
+		    display:none}
+		    .video_holder{
+		    text-align: center;}
+	    </style>
+       
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+
+          <link rel="stylesheet" href="../styles/beauter.css">
+                <link rel="stylesheet" href="../styles/base.css">
+        <script type="text/javascript" src="../scripts/beauter.js"></script>
+        <script type="text/javascript" src="../scripts/app.js"></script>
+        
+        <script>
+  // Initialize Firebase
+  
+  
+  var database = firebase.database;
+  var currentSlide;
+  
+  var starCountRef = firebase.database().ref('currentSlide');
+starCountRef.on('value', function(snapshot) {
+    console.info(snapshot.val())
+	currentSlide = snapshot.val();
+
+	document.getElementById("video_holder").innerHTML = '';
+	
+	
+	if(window.slides[snapshot.val()]['type']=='image'){
+	        
+	document.getElementById("slider").style.display="inline-block";
+	document.getElementById("video_holder").style.display="none";
+            var img = document.getElementById("slider");
+            img.src = "https://shareejvk.github.io/buildyourpipeline/plan/images/all/" + window.slides[snapshot.val()]['source'];	
+	}
+	
+		if(window.slides[snapshot.val()]['type']=='video'){
+	        
+	document.getElementById("slider").style.display="none";
+	document.getElementById("video_holder").style.display="inline-block";
+
+            //var vd = document.getElementById("video_source");
+            //vd.src = "https://shareejvk.github.io/buildyourpipeline/plan/videos/all/" + window.slides[snapshot.val()]['source'];	
+            
+            
+            var video = document.createElement('video');
+setTimeout(function(){
+   video.controls = true;
+    video.src = "https://shareejvk.github.io/buildyourpipeline/plan/videos/all/" + window.slides[snapshot.val()]['source'];
+video.autoplay = true;
+  document.getElementById("video_holder").appendChild(video);  
+    
+},500)
+        
+            
+            
+            
+            
+           
+	}
+	
+	
+ 
+});
+  
+  
+  
+  window.updateFire = function(){
+      firebase.database().ref('currentSlide').set(currentSlide);
+  }
+  
+  
+function navigate(action) {
+   
+    if(action=="pause"){
+    document.documentElement.requestFullscreen();
+    noSleep.enable();
+    }
+if(action=="next"){
+	if(currentSlide<window.slides.length){
+	currentSlide++;
+window.updateFire()	}
+
+}
+	
+	if(action=="prev"){
+		if(currentSlide>1){currentSlide--;
+window.updateFire()	}
+
+}
+	
+if(action=="reset"){
+currentSlide = 0;
+window.updateFire()	
+}	
+	
+	
+	
+	
+	
+	
+	
+    }
+  
+  
+ 
+  
+  
+  
+</script>
+<script>
+            
+            
+            document.addEventListener('dblclick', function() {
+    document.documentElement.requestFullscreen();
+    noSleep.enable();
+}, false);
+            
+            
+        </script>
+
+       
+
+    </head>
+<body>
+    
+<div class="row nav">
+	<div class="col f3"><button onclick="navigate('reset')">@</button></div>
+	<div class="col f3"><button id="prev" onclick="navigate('prev')"><<</button></div>
+	<div class="col f3"><button id="pause" onclick="navigate('pause')">||</button></div>
+	<div class="col f3"><button id="next" onclick="navigate('next')">>></button></div>
+</div>   
+    
+ 
+
+
+    <div class="img-container" id="img-container">
+    <img id="slider" class="center -thumb" height="100%"  align="middle" src="/buildyourpipeline/plan/images/all/start.png"/>
+    <div id="video_holder"></div>
+	</div>
+
+  
+
+</body>
+
+</html>
