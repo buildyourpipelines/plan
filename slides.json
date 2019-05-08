@@ -1,1 +1,293 @@
 
+{
+  "slides": [
+    {
+        
+      "type": "image",
+      "source": "welcome-0_1.png"
+    },
+    {
+      "type": "image",
+      "source": "welcome_again.png"
+    }
+    
+    ,
+    {
+      "type": "video",
+      "source": "Introducing Artistry Studio.mp4"
+    }
+    ,
+    {
+      "type": "video",
+      "source": "Meet Andrea DeVos, Artistry Studio's Global Passionista.mp4"
+    }
+    ,
+    
+    
+    {
+      "type": "image",
+      "source": "duck-rabit.png"
+    },
+    
+    {
+      "type": "image",
+      "source": "duck-rabit-2.png"
+    },
+    {
+      "type": "image",
+      "source": "salary-1.png"
+    },
+    {
+      "type": "image",
+      "source": "salray-2.png"
+    },
+    {
+      "type": "image",
+      "source": "job-business-1.png"
+    },
+    
+    {
+      "type": "image",
+      "source": "job-business-2.png"
+    },
+    
+    {
+      "type": "image",
+      "source": "af-06.png"
+    },
+    {
+      "type": "image",
+      "source": "ag-07.png"
+    },
+    {
+      "type": "image",
+      "source": "ah-08.png"
+    },
+    {
+      "type": "image",
+      "source": "ai-09.png"
+    },
+    
+    
+    {
+      "type": "image",
+      "source": "restaurant-you.png"
+    },
+    
+    {
+      "type": "image",
+      "source": "restaurant-you-few.png"
+    },
+    
+    {
+      "type": "image",
+      "source": "restaurant-you-more.png"
+    },
+    
+    
+    {
+      "type": "image",
+      "source": "ap-16.png"
+    },
+    {
+      "type": "image",
+      "source": "aj-10.png"
+    },
+    {
+      "type": "image",
+      "source": "aj-10_1.png"
+    },
+    {
+      "type": "image",
+      "source": "ak-11.png"
+    },
+    {
+      "type": "image",
+      "source": "al-12.png"
+    },
+    {
+      "type": "image",
+      "source": "ai-09_1.png"
+    },
+    {
+      "type": "image",
+      "source": "ar-18.png"
+    },
+    {
+      "type": "image",
+      "source": "as-19.png"
+    },
+    {
+      "type": "image",
+      "source": "at-20.png"
+    },
+    {
+      "type": "image",
+      "source": "au-21.png"
+    },
+    {
+      "type": "image",
+      "source": "av-22.png"
+    },
+    {
+      "type": "image",
+      "source": "aw-23.png"
+    },
+    {
+      "type": "image",
+      "source": "ax-24.png"
+    },
+    {
+      "type": "image",
+      "source": "ay-25.png"
+    },
+    {
+      "type": "image",
+      "source": "az-26.png"
+    },
+    {
+      "type": "image",
+      "source": "b-27.png"
+    },
+    {
+      "type": "image",
+      "source": "ba-28.png"
+    },
+    {
+      "type": "image",
+      "source": "bc-29.png"
+    },
+    {
+      "type": "image",
+      "source": "bf-32.png"
+    },
+    
+    {
+      "type": "image",
+      "source": "be-31.png"
+    },
+    {
+      "type": "image",
+      "source": "bd-30.png"
+    },
+    {
+      "type": "image",
+      "source": "bg-33.png"
+    },
+    {
+      "type": "image",
+      "source": "bh-34.png"
+    },
+    {
+      "type": "image",
+      "source": "bj-36.png"
+    },
+    {
+      "type": "image",
+      "source": "bk-37.png"
+    },
+    {
+      "type": "image",
+      "source": "bl-38.png"
+    },
+    {
+      "type": "image",
+      "source": "bl-38_1.png"
+    },
+    {
+      "type": "image",
+      "source": "bl-38_2.png"
+    },
+    {
+      "type": "image",
+      "source": "bm-39.png"
+    },
+    {
+      "type": "image",
+      "source": "bn-40.png"
+    },
+    {
+      "type": "image",
+      "source": "bo_41.png"
+    },
+    {
+      "type": "image",
+      "source": "bo_42.png"
+    },
+    {
+      "type": "image",
+      "source": "bo_43.png"
+    },
+    {
+      "type": "image",
+      "source": "bo_44.png"
+    },
+    {
+      "type": "image",
+      "source": "bp-45.png"
+    },
+    {
+      "type": "image",
+      "source": "bq-46.png"
+    },
+    {
+      "type": "image",
+      "source": "br-47.png"
+    },
+    {
+      "type": "image",
+      "source": "bs-48.png"
+    },
+    {
+      "type": "image",
+      "source": "bt-49.png"
+    },
+    {
+      "type": "image",
+      "source": "bu-50.png"
+    }
+    ,
+    {
+      "type": "image",
+      "source": "product-1.png"
+    }
+    ,
+    {
+      "type": "image",
+      "source": "product-2.png"
+    },
+    {
+      "type": "image",
+      "source": "product-3.png"
+    }
+    ,
+    {
+      "type": "image",
+      "source": "product-4.png"
+    },
+    {
+      "type": "image",
+      "source": "product-5.png"
+    },
+    {
+      "type": "image",
+      "source": "registration1.png"
+    },
+    {
+      "type": "image",
+      "source": "registration2.png"
+    },
+    {
+      "type": "image",
+      "source": "registration3.png"
+    },
+    {
+      "type": "image",
+      "source": "registration3_1.png"
+    },
+    {
+      "type": "image",
+      "source": "registration4.png"
+    }
+  ]
+}
