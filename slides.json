@@ -6,7 +6,7 @@
       "type": "image",
       "source": "welcome-0_1.png",
       "audio":"new",
-      "audioSource":"welcome.mp3"
+      "audioSource":"bensound-summer.mp3"
     },
     {
       "audio":"mute",
