@@ -31,18 +31,18 @@
     
     {
       "type": "image",
-      "source": "duck-rabit.png"
+      "source": "duck-rabit.png",
        "audio":"continue",
     },
     
     {
       "type": "image",
-      "source": "duck-rabit-2.png"
+      "source": "duck-rabit-2.png",
        "audio":"continue",
     },
     {
       "type": "image",
-      "source": "salary-1.png"
+      "source": "salary-1.png",
        "audio":"mute",
     },
     {
