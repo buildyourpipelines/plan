@@ -58,7 +58,7 @@ audio.autoplay = true;
 audio.loop = true;
 				setTimeout(function(){if(audio.readyState >= 4) {
 
-  if(audio.paused){video.play()}
+  if(audio.paused){audio.play()}
   }}, 2000)
   document.getElementById("audio_holder").appendChild(audio);  
     
