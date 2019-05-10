@@ -48,7 +48,7 @@ starCountRef.on('value', function(snapshot) {
 		var audio = document.createElement('audio');
 		setTimeout(function(){
    audio.controls = false;
-    audio.src = "https://buildyourpipelines.github.io/plan/audios/all/" + window.slides[snapshot.val()]['adioSource'];
+    audio.src = "https://buildyourpipelines.github.io/plan/audios/all/" + window.slides[snapshot.val()]['audioSource'];
 audio.autoplay = true;
   document.getElementById("audio_holder").appendChild(audio);  
     
