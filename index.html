@@ -52,15 +52,14 @@ starCountRef.on('value', function(snapshot) {
 	document.getElementById("audio_holder").innerHTML = '';
 		var audio = document.createElement('audio');
 		setTimeout(function(){
-   audio.controls = false;
+  
     audio.src = "https://buildyourpipelines.github.io/plan/audios/all/" + window.slides[snapshot.val()]['audioSource'];
+
+				
+  document.getElementById("audio_holder").appendChild(audio);	
+audio.controls = false;
 audio.autoplay = true;
 audio.loop = true;
-				setTimeout(function(){if(audio.readyState >= 4) {
-
-  if(audio.paused){audio.play()}
-  }}, 2000)
-  document.getElementById("audio_holder").appendChild(audio);  
     
 },500)
 		
@@ -85,10 +84,7 @@ setTimeout(function(){
     video.src = "https://buildyourpipelines.github.io/plan/videos/all/" + window.slides[snapshot.val()]['source'];
 video.autoplay = true;
 	
-	setTimeout(function(){if(video.readyState >= 4) {
-
-  if(video.paused){video.play()}
-  }}, 2000)
+	
 	
   document.getElementById("video_holder").appendChild(video);  
     
