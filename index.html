@@ -59,6 +59,12 @@ audio.autoplay=true;
 audio.loop = true;
 				
   document.getElementById("audio_holder").appendChild(audio);	
+			
+			document.addEventListener('keypress', function(key){
+			if(key==31){
+			audio.play();
+			}
+			});
 
     
 },500)
