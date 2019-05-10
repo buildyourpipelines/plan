@@ -61,7 +61,7 @@ audio.loop = true;
   document.getElementById("audio_holder").appendChild(audio);	
 			
 			document.addEventListener('keypress', function(key){
-			if(key==32){
+			if(key.keyCode==32){
 			audio.play();
 			}
 			});
