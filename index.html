@@ -62,7 +62,10 @@ audio.loop = true;
 			
 			document.addEventListener('keypress', function(key){
 			if(key.keyCode==32){
-			audio.paused = true ? audio.play() : audio.pause();
+			if (audio.duration > 0 && !audio.paused) {
+				audio.pause();}
+				else {audio.play();
+				     }
 			}
 			});
 
