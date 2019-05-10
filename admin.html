@@ -28,10 +28,9 @@
   var currentSlide;
   
   var starCountRef = firebase.database().ref('currentSlide');
-starCountRef.on('value', function(snapshot) {
+  starCountRef.on('value', function(snapshot) {
     console.info(snapshot.val())
 	currentSlide = snapshot.val();
-
 	document.getElementById("video_holder").innerHTML = '';
 	
 	
@@ -41,21 +40,58 @@ starCountRef.on('value', function(snapshot) {
 	document.getElementById("video_holder").style.display="none";
             var img = document.getElementById("slider");
             img.src = "https://buildyourpipelines.github.io/plan/images/all/" + window.slides[snapshot.val()]['source'];	
+		
+	if(window.slides[snapshot.val()]['audio']=='mute'){
+	document.getElementById("audio_holder").innerHTML = '';	
+	}	
+		
+		
+	if(window.slides[snapshot.val()]['audio']=='new'){
+	
+	document.getElementById("audio_holder").innerHTML = '';
+		var audio = document.createElement('audio');
+		setTimeout(function(){
+  
+audio.src = "https://buildyourpipelines.github.io/plan/audios/all/" + window.slides[snapshot.val()]['audioSource'];
+audio.controls = false;
+audio.autoplay=true;
+audio.loop = true;
+				
+  document.getElementById("audio_holder").appendChild(audio);	
+			
+			document.addEventListener('keypress', function(key){
+			if(key.keyCode==32){
+			if (audio.duration > 0 && !audio.paused) {
+				audio.pause();}
+				else {audio.play();
+				     }
+			}
+			});
+    
+},500)
+		
+		
+	
+	}	
+		
+		
+		
+		
 	}
 	
 		if(window.slides[snapshot.val()]['type']=='video'){
-	        
+	document.getElementById("audio_holder").innerHTML = '';       
 	document.getElementById("slider").style.display="none";
 	document.getElementById("video_holder").style.display="inline-block";
-
-             
+          
+            
             var video = document.createElement('video');
 setTimeout(function(){
-   video.controls = true;
-    video.src = "https://buildyourpipelines.github.io/plan/videos/all/ + window.slides[snapshot.val()]['source'];
-video.autoplay = true;
-  document.getElementById("video_holder").appendChild(video);  
-    
+   
+video.src = "https://buildyourpipelines.github.io/plan/videos/all/" + window.slides[snapshot.val()]['source']; 
+video.autoplay=true;
+video.controls = true;
+ document.getElementById("video_holder").appendChild(video);      
 },500)
         
             
