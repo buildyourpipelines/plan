@@ -4,15 +4,19 @@
     {
         
       "type": "image",
-      "source": "welcome-0_1.png"
+      "source": "welcome-0_1.png",
+      "audio":"new",
+      audioSource:"welcome.mp3"
     },
     {
+      "audio":"mute",
       "type": "image",
       "source": "welcome_again.png"
     }
     
     ,
     {
+      "audio":"continue",
       "type": "video",
       "source": "Introducing Artistry Studio.mp4"
     }
