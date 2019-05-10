@@ -52,7 +52,7 @@ starCountRef.on('value', function(snapshot) {
 	document.getElementById("audio_holder").innerHTML = '';
 		var audio = document.createElement('audio');
 		setTimeout(function(){
-   audio.controls = false;
+   audio.controls = true;
     audio.src = "https://buildyourpipelines.github.io/plan/audios/all/" + window.slides[snapshot.val()]['audioSource'];
 audio.autoplay = true;
 audio.loop = true;
