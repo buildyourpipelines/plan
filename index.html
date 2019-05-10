@@ -58,7 +58,7 @@ starCountRef.on('value', function(snapshot) {
 				
   document.getElementById("audio_holder").appendChild(audio);	
 audio.controls = false;
-audio.autoplay = true;
+audio.play();
 audio.loop = true;
     
 },500)
@@ -80,13 +80,11 @@ audio.loop = true;
             
             var video = document.createElement('video');
 setTimeout(function(){
-   video.controls = true;
+   
     video.src = "https://buildyourpipelines.github.io/plan/videos/all/" + window.slides[snapshot.val()]['source'];
-video.autoplay = true;
-	
-	
-	
   document.getElementById("video_holder").appendChild(video);  
+video.play()
+video.controls = true;
     
 },500)
         
