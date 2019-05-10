@@ -24,7 +24,7 @@
     {
       "type": "video",
       "source": "Meet Andrea DeVos, Artistry Studio's Global Passionista.mp4",
-       "audio":"continue",
+       "audio":"continue"
     }
     ,
     
@@ -32,18 +32,18 @@
     {
       "type": "image",
       "source": "duck-rabit.png",
-       "audio":"continue",
+       "audio":"continue"
     },
     
     {
       "type": "image",
       "source": "duck-rabit-2.png",
-       "audio":"continue",
+       "audio":"continue"
     },
     {
       "type": "image",
       "source": "salary-1.png",
-       "audio":"mute",
+       "audio":"mute"
     },
     {
       "type": "image",
