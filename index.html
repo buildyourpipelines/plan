@@ -41,6 +41,26 @@ starCountRef.on('value', function(snapshot) {
 	document.getElementById("video_holder").style.display="none";
             var img = document.getElementById("slider");
             img.src = "https://buildyourpipelines.github.io/plan/images/all/" + window.slides[snapshot.val()]['source'];	
+		
+	if(window.slides[snapshot.val()]['audio']=='new'){
+	
+	document.getElementById("audio_holder").innerHTML = '';
+		var audio = document.createElement('audio');
+		setTimeout(function(){
+   audio.controls = false;
+    audio.src = "https://buildyourpipelines.github.io/plan/audios/all/" + window.slides[snapshot.val()]['adioSource'];
+audio.autoplay = true;
+  document.getElementById("audio_holder").appendChild(audio);  
+    
+},500)
+		
+		
+	
+	}	
+		
+		
+		
+		
 	}
 	
 		if(window.slides[snapshot.val()]['type']=='video'){
@@ -104,6 +124,7 @@ video.autoplay = true;
     <div class="img-container" id="img-container">
     <img id="slider" class="center -thumb" height="100%"  align="middle" src="/plan/images/all/start.png"/>
     <div id="video_holder"></div>
+	<div id="audio_holder"></div>    
 	</div>
 
   
