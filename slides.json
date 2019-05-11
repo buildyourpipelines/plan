@@ -16,13 +16,13 @@
     
     {
       "type": "image",
-      "source": "duck-rabit.png",
+      "source": "golf.png",
       "audio":"mute"
     },
     
     {
       "type": "image",
-      "source": "duck-rabit-2.png",
+      "source": "priorities.png",
        "audio":"mute"
     },
     {
