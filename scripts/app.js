@@ -303,7 +303,7 @@ window.slides={};
 
 function getSlides() {
 	var random= new Date().getTime();
-        xhr.open('GET', '/plan/slides.json?dynamic='+random');
+        xhr.open('GET', '/plan/slides.json?dynamic='+random);
 
     xhr.send();
 
