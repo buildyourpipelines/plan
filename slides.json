@@ -163,6 +163,16 @@
       "source": "az-26.png",
        "audio":"mute"
     },
+     {
+      "type": "image",
+      "source": "news1.png",
+       "audio":"mute"
+    },
+     {
+      "type": "image",
+      "source": "news2.png",
+       "audio":"mute"
+    },
     {
       "type": "image",
       "source": "b-27.png",
@@ -257,6 +267,11 @@
     {
       "type": "image",
       "source": "bj-36.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "amway_cenetr.png",
        "audio":"mute"
     },
     {
