@@ -268,15 +268,14 @@
     },
     {
       "type": "image",
-      "source": "bk-37.png",
-       "audio":"mute"
-    },
-
-    {
-      "type": "image",
       "source": "amway_cenetr.png",
        "audio":"mute"
     },
+    {
+      "type": "image",
+      "source": "bk-37.png",
+       "audio":"mute"
+    },    
     {
       "type": "image",
       "source": "bl-38.png",
