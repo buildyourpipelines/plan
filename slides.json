@@ -258,17 +258,18 @@
       "type": "image",
       "source": "rich-jay.png",
        "audio":"mute"
+    },    
+    {
+      "type": "image",
+      "source": "bj-36.png",
+       "audio":"mute"
     },
     {
       "type": "image",
       "source": "bk-37.png",
        "audio":"mute"
     },
-    {
-      "type": "image",
-      "source": "bj-36.png",
-       "audio":"mute"
-    },
+
     {
       "type": "image",
       "source": "amway_cenetr.png",
@@ -297,6 +298,11 @@
     {
       "type": "image",
       "source": "bn-40.png",
+       "audio":"mute"
+    },
+        {
+      "type": "image",
+      "source": "priorities.png",
        "audio":"mute"
     },
     {
