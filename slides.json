@@ -246,12 +246,17 @@
     },
     {
       "type": "image",
-      "source": "bj-36.png",
+      "source": "rich-jay.png",
        "audio":"mute"
     },
     {
       "type": "image",
       "source": "bk-37.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bj-36.png",
        "audio":"mute"
     },
     {
