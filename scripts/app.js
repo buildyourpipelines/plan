@@ -302,8 +302,8 @@ var isDataLoaded = false;
 window.slides={};
 
 function getSlides() {
-
-    xhr.open('GET', '/plan/slides.json');
+	var random= new Date().getTime();
+        xhr.open('GET', '/plan/slides.json?dynamic='+random');
 
     xhr.send();
 
