@@ -24,8 +24,19 @@
     window.slides={};
 
 function getSlides() {
+	
+	 var slideToLoad = "slides.json";
+    
+    
+    if(window.location.href.split("?")[1]!=undefined && typeof(window.location.href.split("?")[1].split("=")[1])==='string'){
+        
+        slideToLoad = window.location.href.split("?")[1].split("=")[1]+".json"
+    }
+	
+	
 	var random= new Date().getTime();
-        xhr.open('GET', '/plan/slides.json?dynamic='+random);
+	
+        xhr.open('GET', '/plan/'+slideToLoad+'?dynamic='+random);
 
     xhr.send();
 
