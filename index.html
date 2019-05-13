@@ -101,7 +101,33 @@ video.controls = true;
             
            
 	}
-      
+      	if(node.type=='youtube'){
+	    
+	    var myNode = document.getElementById("video_holder");
+while (myNode.firstChild) {
+    myNode.removeChild(myNode.firstChild);
+}
+	    
+	    
+
+	document.getElementById("audio_holder").innerHTML = '';       
+	document.getElementById("slider").style.display="none";
+	document.getElementById("video_holder").style.display="inline-block";
+	  setTimeout(function(){  
+	      document.getElementById("video_holder").innerHTML = ''; 
+	      var youtube = document.createElement('iframe');
+	      youtube.src="https://www.youtube.com/embed/"+node.source;
+	      youtube.width="956" ;
+	      youtube.height="538" 
+	      youtube.frameborder="0" 
+	      youtube.autoplay = true;
+	      youtube.allowfullscreen =true;
+	       document.getElementById("video_holder").appendChild(youtube);      
+},500)
+        
+	      
+	      
+	}
       
       
       
