@@ -37,8 +37,9 @@
 	        
 	document.getElementById("slider").style.display="inline-block";
 	document.getElementById("video_holder").style.display="none";
+           setTimeout(function(){	
             var img = document.getElementById("slider");
-            img.src = "https://buildyourpipelines.github.io/plan/images/all/" + node.source;	
+            img.src = "https://buildyourpipelines.github.io/plan/images/all/" + node.source;},500)
 		
 	if(node.audio=='mute'){
 	document.getElementById("audio_holder").innerHTML = '';	
