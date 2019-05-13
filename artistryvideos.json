@@ -1,1 +1,17 @@
 
+{
+  "slides": [
+     
+    {
+      "type": "video",
+      "source": "golf.png",
+      "audio":"mute"
+    },
+    
+  
+    {
+      "type": "image",
+      "source": "salary-1.png",
+       "audio":"mute"
+    }]
+}
