@@ -25,35 +25,33 @@
   
   
   var database = firebase.database;
-  var currentSlide;
+  var currentSlideNode = firebase.database().ref('slideNode');
   
-  var starCountRef = firebase.database().ref('currentSlide');
-  starCountRef.on('value', function(snapshot) {
-    console.info(snapshot.val())
-	currentSlide = snapshot.val();
-
-	document.getElementById("video_holder").innerHTML = '';
-	
-	
-	if(window.slides[snapshot.val()]['type']=='image'){
+  currentSlideNode.on('value', function(slideNode) {
+      node = slideNode.val();
+      document.getElementById("video_holder").innerHTML = '';
+      
+      
+      	
+	if(node.type=='image'){
 	        
 	document.getElementById("slider").style.display="inline-block";
 	document.getElementById("video_holder").style.display="none";
             var img = document.getElementById("slider");
-            img.src = "https://buildyourpipelines.github.io/plan/images/all/" + window.slides[snapshot.val()]['source'];	
+            img.src = "https://buildyourpipelines.github.io/plan/images/all/" + node.source;	
 		
-	if(window.slides[snapshot.val()]['audio']=='mute'){
+	if(node.audio=='mute'){
 	document.getElementById("audio_holder").innerHTML = '';	
 	}	
 		
 		
-	if(window.slides[snapshot.val()]['audio']=='new'){
+	if(node.audio=='new'){
 	
 	document.getElementById("audio_holder").innerHTML = '';
 		var audio = document.createElement('audio');
 		setTimeout(function(){
   
-audio.src = "https://buildyourpipelines.github.io/plan/audios/all/" + window.slides[snapshot.val()]['audioSource'];
+audio.src = "https://buildyourpipelines.github.io/plan/audios/all/" + node.audioSource;
 audio.controls = false;
 audio.autoplay=true;
 audio.loop = true;
@@ -81,7 +79,7 @@ audio.loop = true;
 		
 	}
 	
-		if(window.slides[snapshot.val()]['type']=='video'){
+		if(node.type=='video'){
 	document.getElementById("audio_holder").innerHTML = '';       
 	document.getElementById("slider").style.display="none";
 	document.getElementById("video_holder").style.display="inline-block";
@@ -90,7 +88,7 @@ audio.loop = true;
             var video = document.createElement('video');
 setTimeout(function(){
    
-video.src = "https://buildyourpipelines.github.io/plan/videos/all/" + window.slides[snapshot.val()]['source']; 
+video.src = "https://buildyourpipelines.github.io/plan/videos/all/" + node.source; 
 video.autoplay=true;
 video.controls = true;
  document.getElementById("video_holder").appendChild(video);      
@@ -102,12 +100,11 @@ video.controls = true;
             
            
 	}
-	
-	
- 
-});
-  
-  
+      
+      
+      
+      
+  })
   
   
   
