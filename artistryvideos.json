@@ -3,15 +3,24 @@
   "slides": [
      
     {
-      "type": "video",
-      "source": "Meet Andrea DeVos, Artistry Studio's Global Passionista.mp4",
+      "type": "youtube",
+      "source": "2KqJpMkA6gY",
       "audio":"mute"
     },
     
-  
-    {
-      "type": "image",
-      "source": "salary-1.png",
-       "audio":"mute"
-    }]
+  {
+      "type": "youtube",
+      "source": "ZME08vSnyRY",
+      "audio":"mute"
+    }
+  ,
+    
+  {
+      "type": "youtube",
+      "source": "DtQif7J_zbE",
+      "audio":"mute"
+    }
+    
+
+  ]
 }
