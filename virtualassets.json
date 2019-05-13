@@ -1,1 +1,386 @@
 
+
+{
+  "slides": [
+    {
+        
+      "type": "image",
+      "source": "welcome-0_1.png",
+      "audio":"mute",
+      "audioSource":"bensound-summer.mp3"
+    },
+    {
+      "audio":"mute",
+      "type": "image",
+      "source": "welcome_again.png"
+    },    
+       
+    {
+      "type": "image",
+      "source": "af-06.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "ag-07.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "ah-08.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "ai-09.png",
+       "audio":"mute"
+    },
+    
+    {
+      "type": "image",
+      "source": "priorities.png",
+       "audio":"mute"
+    },
+    
+    
+    {
+      "type": "image",
+      "source": "restaurant-you.png",
+       "audio":"mute"
+    },
+    
+    {
+      "type": "image",
+      "source": "restaurant-you-few.png",
+       "audio":"mute"
+    },
+    
+    {
+      "type": "image",
+      "source": "restaurant-you-more.png",
+       "audio":"mute"
+    },
+    
+    
+    {
+      "type": "image",
+      "source": "ap-16.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "aj-10.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "aj-10_1.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "ak-11.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "al-12.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "ai-09_1.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "ar-18.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "as-19.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "at-20.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "au-21.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "av-22.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "aw-23.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "ax-24.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "ay-25.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "az-26.png",
+       "audio":"mute"
+    },
+     {
+      "type": "image",
+      "source": "news1.png",
+       "audio":"mute"
+    },
+     {
+      "type": "image",
+      "source": "news2.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "b-27.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "ba-28.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bc-29.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bf-32.png",
+       "audio":"mute"
+    },
+    
+    {
+      "type": "image",
+      "source": "be-31.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bd-30.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bg-33.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bh-34.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "farms003.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "nutrilite0.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "nutrilite.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "farms005.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "farms001.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "farms002.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "nutrilite2.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "farms006.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "rich-jay.png",
+       "audio":"mute"
+    },    
+        {
+      "type": "image",
+      "source": "bk-37.png",
+       "audio":"mute"
+    }, 
+        {
+      "type": "image",
+      "source": "amway_cenetr.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bj-36.png",
+       "audio":"mute"
+    },
+  
+    {
+      "type": "image",
+      "source": "bl-38.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bl-38_1.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bl-38_2.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bm-39.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bn-40.png",
+       "audio":"mute"
+    },
+        {
+      "type": "image",
+      "source": "priorities.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bo_41.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bo_42.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bo_43.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bo_44.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bp-45.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bq-46.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "br-47.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bs-48.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bt-49.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "bu-50.png",
+       "audio":"mute"
+    }
+    ,
+    {
+      "type": "image",
+      "source": "product-1.png",
+       "audio":"mute"
+    }
+    ,
+    {
+      "type": "image",
+      "source": "product-2.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "product-3.png",
+       "audio":"mute"
+    }
+    ,
+    {
+      "type": "image",
+      "source": "product-4.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "product-5.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "registration1.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "registration2.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "registration3.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "registration3_1.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "registration4.png",
+       "audio":"mute"
+    }
+  ]
+}
