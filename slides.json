@@ -5,8 +5,8 @@
         
       "type": "image",
       "source": "welcome-0_1.png",
-      "audio":"newcloud",
-      "audioSource":"625797432"
+      "audio":"mute"
+      
     },
     {
       "audio":"mute",
@@ -24,7 +24,8 @@
     {
       "type": "image",
       "source": "salary-1.png",
-       "audio":"mute"
+       "audio":"newcloud",
+      "audioSource":"625797432"
     },
     {
       "type": "image",
@@ -35,7 +36,8 @@
       {
       "type": "image",
       "source": "priorities.png",
-       "audio":"mute"
+         "audio":"newcloud",
+      "audioSource":"625797432"
     },
     {
       "type": "image",
