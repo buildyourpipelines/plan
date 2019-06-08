@@ -67,7 +67,28 @@
       "source": "restaurant-you-more.png",
        "audio":"mute"
     },
+    {
+      "type": "image",
+      "source": "market-1.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "market-2.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "market-3.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "market-4.png",
+       "audio":"mute"
+    },
     
+       
     
     {
       "type": "image",
