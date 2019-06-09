@@ -45,6 +45,19 @@
     
     {
       "type": "image",
+      "source": "duck-rabit.png",
+       "audio":"mute"
+    },
+    
+    {
+      "type": "image",
+      "source": "duck-rabit-2.pngs",
+       "audio":"mute"
+    },
+    
+    
+    {
+      "type": "image",
       "source": "priorities.png",
        "audio":"mute"
     },
