@@ -1,76 +1,66 @@
 
+
 {
   "slides": [
     {
         
       "type": "image",
       "source": "welcome-0_1.png",
-      "audio":"mute"
-      
+      "audio":"mute",
+      "audioSource":"bensound-summer.mp3"
     },
     {
       "audio":"mute",
       "type": "image",
       "source": "welcome_again.png"
-    }, 
-    
-    {
-      "type": "image",
-      "source": "golf.png",
-      "audio":"mute"
-    },
-    
-  
-    {
-      "type": "image",
-      "source": "salary-1.png",
-       "audio":"newcloud",
-      "audioSource":"625797432"
-    },
-    {
-      "type": "image",
-      "source": "salray-2.png",
-       "audio":"mute"
-    },
-    
-      {
-      "type": "image",
-      "source": "priorities.png",
-         "audio":"newcloud",
-      "audioSource":"625797432"
-    },
-    {
-      "type": "image",
-      "source": "job-business-1.png",
-       "audio":"mute"
-    },
-    
-    {
-      "type": "image",
-      "source": "job-business-2.png",
-       "audio":"mute"
-    },
-    
+    },    
+       
     {
       "type": "image",
       "source": "af-06.png",
        "audio":"mute"
     },
+     {
+      "type": "image",
+      "source": "why.png",
+       "audio":"mute"
+    },
+   
     {
       "type": "image",
-      "source": "ag-07.png",
+      "source": "ownbusiness.png",
        "audio":"mute"
     },
     {
       "type": "image",
-      "source": "ah-08.png",
+      "source": "ownbusiness-2.png",
        "audio":"mute"
     },
     {
       "type": "image",
-      "source": "ai-09.png",
+      "source": "social-commercial-business.png",
        "audio":"mute"
     },
+   
+    {
+      "type": "image",
+      "source": "duck-rabit.png",
+       "audio":"mute"
+    },
+    
+    {
+      "type": "image",
+      "source": "duck-rabit-2.png",
+       "audio":"mute"
+    },
+    
+     {
+      "type": "image",
+      "source": "turnover.png",
+       "audio":"mute"
+    },
+    
+  
     
     
     {
@@ -90,7 +80,28 @@
       "source": "restaurant-you-more.png",
        "audio":"mute"
     },
+    {
+      "type": "image",
+      "source": "market-1.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "market-2.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "market-3.png",
+       "audio":"mute"
+    },
+    {
+      "type": "image",
+      "source": "market-4.png",
+       "audio":"mute"
+    },
     
+       
     
     {
       "type": "image",
