@@ -37,6 +37,13 @@
       "source": "ownbusiness.png",
        "audio":"mute"
     },
+    
+    {
+      "type": "youtube",
+      "source": "zKkUN-mJtPQ",
+       "audio":"mute",
+      "time" :105
+    },
     {
       "type": "image",
       "time":63,
@@ -71,12 +78,7 @@
        "audio":"mute"
     },
     
-  {
-      "type": "youtube",
-      "source": "zKkUN-mJtPQ",
-       "audio":"mute",
-      "time" :105
-    },
+  
     
     
     {
