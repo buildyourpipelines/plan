@@ -5,57 +5,67 @@
     {
         
       "type": "image",
+      "time":3,
       "source": "welcome-0_1.png",
       "audio":"mute",
       "audioSource":"bensound-summer.mp3"
     },
     {
       "audio":"mute",
+      "time":5,
       "type": "image",
       "source": "welcome_again.png"
     },    
        
     {
       "type": "image",
+      "time":8,
       "source": "af-06.png",
        "audio":"mute"
     },
      {
       "type": "image",
+       "time":23,
       "source": "why.png",
        "audio":"mute"
     },
    
     {
       "type": "image",
+      "time":33,
       "source": "ownbusiness.png",
        "audio":"mute"
     },
     {
       "type": "image",
+      "time":63,
       "source": "ownbusiness-2.png",
        "audio":"mute"
     },
     {
       "type": "image",
+      "time":73,
       "source": "social-commercial-business.png",
        "audio":"mute"
     },
    
     {
       "type": "image",
+      "time":83,
       "source": "duck-rabit.png",
        "audio":"mute"
     },
     
     {
       "type": "image",
+      "time":93,
       "source": "duck-rabit-2.png",
        "audio":"mute"
     },
     
      {
       "type": "image",
+       "time":103,
       "source": "turnover.png",
        "audio":"mute"
     },
