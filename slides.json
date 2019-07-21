@@ -42,7 +42,8 @@
       "type": "youtube",
       "source": "zKkUN-mJtPQ",
        "audio":"mute",
-      "time" :38
+      "time" :38,
+      "nextCue" : 46
     },
     {
       "type": "image",
